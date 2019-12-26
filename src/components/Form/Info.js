@@ -47,11 +47,21 @@ const infoList=this.state.info.map(details =>(
 
          return (
             <div>
-             
+                  <h1>Enter the details</h1>
+                  <form>
+                  <label>Name:</label>
+                  <input type="text" />
+                  <label>Salary:</label>
+                  <input type="text" />
+                  <label>Age:</label>
+                  <input type="text"></input>
+                  <button>Add</button>
+            
+                    
 
-               
-                     <hr />
-                     <h1>Details of the Employee</h1>
+            </form>
+              <br />
+                     <h2>Details of the Employee</h2>
                {infoList}
             </div>
         )
